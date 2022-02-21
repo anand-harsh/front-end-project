@@ -11,7 +11,7 @@ body{
 .dis{
 	width: 220px;
 	left: -20px;
-	top: 420px;
+	top: 432px;
 	width: 310px;
 }
 .work{
@@ -35,50 +35,77 @@ body{
 	height: 675px;
 }
 nav ul{
-	z-index: 1;
+    position: absolute ;
+	margin-left: -5rem;
+	top: 90px;
+	padding: 4px;
+	z-index: 0;
 	display: flex;
-	margin-left: 60rem;
+	font-size: 30px;
+	
 	align-items: center;
-	left: 20px
 }
 nav ul li{
+    position: absolute;
+    top: 10px;
+    display: flex;
 	padding: 1.2rem;
 	margin-top: 0.8rem;
-	left: 20px
-
+	font-size: 30px;
+	
+    
 }
 nav ul li a:before{
+    
 	height: 200px;
 	left: 20px;
+	padding: 5px;
+	
 }
 .midt{
     left: -5px;
     top: 675px;
+    font-size: 34px;
 }
 .midt2{
     
-    display: flex;
-    left: -5px;
+    float: left;
+    width: 350px;
+    height: 150px;
+    
+    padding: 10px;
+    left: -9px;
     margin-right: 6px;
-    top: 780px;
+    top: 750px;
     font-weight: 500;
+    
+    flex-wrap: wrap;
+    flex: 200px;
 }
 .bulb{
     width: 340px;
     height: 200px;
     left: 10px;
+    top: 880px;
 }
 .middle{
     height: 500px;
     top: 1150px;
 }
 .jenny{
-    top: 1200px;
+    top: 1150px;
+    
 }
 .midt3{
     font-size: 16px;
-    top: 1330px;
-    left: -5px;
+    top: 1270px;
+    left: 8px;
+    float: left;
+    width: 350px;
+    height: 290px;
+    
+    overflow-y: hidden;
+    
 }
 .bottom{
     height: 150px;
@@ -91,14 +118,14 @@ nav ul li a:before{
     top: 1675px;
 }
 .brow{
-    left: 100px;
+    left: 105px;
     height: 1500px;
     width: 50px;
     height: 50px;
     top: 1675px;
 }
 .twit{
-    left: 170px;
+    left: 180px;
     height: 1500px;
     width: 50px;
     height: 50px;
@@ -110,4 +137,17 @@ nav ul li a:before{
     width: 50px;
     height: 50px;
     top: 1675px;
+}
+.comma{
+    left: 1px;
+    top: 1220px;
+    width: 42.5px;
+    height: 42.5px;
+    overflow-y: hidden;
+}
+.item{
+    align-self: center;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 30px;
 }
