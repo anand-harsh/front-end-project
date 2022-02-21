@@ -1,0 +1,113 @@
+@media screen and (max-width:632px){
+body{
+	background-size: 100%;
+	position: absolute;
+}
+.logo{
+	height: 80px;
+	width: 60px;
+	left: 5px;
+}
+.dis{
+	width: 220px;
+	left: -20px;
+	top: 420px;
+	width: 310px;
+}
+.work{
+	position: relative;
+	left: 10px;
+	font-size: 50px;
+	top: 160px;
+
+}
+
+.sen{
+	position: relative;
+	top: 220px;
+	left: 10px;
+	font-size: 16px;
+	display: flex;
+	font-weight: 500;
+}
+.top{
+	width: 550px;
+	height: 675px;
+}
+nav ul{
+	z-index: 1;
+	display: flex;
+	margin-left: 60rem;
+	align-items: center;
+	left: 20px
+}
+nav ul li{
+	padding: 1.2rem;
+	margin-top: 0.8rem;
+	left: 20px
+
+}
+nav ul li a:before{
+	height: 200px;
+	left: 20px;
+}
+.midt{
+    left: -5px;
+    top: 675px;
+}
+.midt2{
+    
+    display: flex;
+    left: -5px;
+    margin-right: 6px;
+    top: 780px;
+    font-weight: 500;
+}
+.bulb{
+    width: 340px;
+    height: 200px;
+    left: 10px;
+}
+.middle{
+    height: 500px;
+    top: 1150px;
+}
+.jenny{
+    top: 1200px;
+}
+.midt3{
+    font-size: 16px;
+    top: 1330px;
+    left: -5px;
+}
+.bottom{
+    height: 150px;
+}
+.insta{
+    left: 30px;
+    height: 1500px;
+    width: 50px;
+    height: 50px;
+    top: 1675px;
+}
+.brow{
+    left: 100px;
+    height: 1500px;
+    width: 50px;
+    height: 50px;
+    top: 1675px;
+}
+.twit{
+    left: 170px;
+    height: 1500px;
+    width: 50px;
+    height: 50px;
+    top: 1675px;
+}
+.yt{
+    left: 250px;
+    height: 1500px;
+    width: 50px;
+    height: 50px;
+    top: 1675px;
+}
