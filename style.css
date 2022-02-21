@@ -1,0 +1,416 @@
+/* Coded by Harsh Anand */
+
+*{
+	margin: 0;
+	padding: 0;
+	max-height: 100%;
+	overflow-x: hidden;
+
+
+}
+#container{
+	min-height: 100vh;
+	min-width: 1519px;
+}
+.top{
+	position: absolute;
+	width: 1519px;
+	height: 700px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+
+	background: #D9E8EF;
+}
+.house{
+	position: absolute;
+	width: 759.5px;
+	height: 700px;
+	left: 850px;
+	top: 0%;
+	max-height: 100%;
+	background-size: cover;
+	
+
+
+	background: url(house.png);
+	background-repeat: no-repeat;
+}
+
+.middle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 1300px;
+	
+	
+
+	background: #D9E8EF;
+
+	height: 312px;
+	width: 1519px;
+	left: 0px;
+	
+	border-radius: 0px;
+	padding: 64px, 165px, 64px, 165px;
+
+}
+.bottom{
+	position: absolute;
+	width: 1519px;
+	height: 72px;
+	left: 0px;
+	top: 1612px;
+	background: #000000;
+}
+
+/* Default / White */
+
+
+:root{
+	--navbar-height: 59px;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	width: 100vw;
+}
+
+.logo{
+	
+	/* Landify */
+	height: 59px;
+	width: 60px;
+
+
+/* Default / Black */
+
+}
+
+.logo img{
+	height: 30px;
+	bottom: -20px;
+	margin: 3px 6px;
+	position: absolute;
+	left: 8%;
+	right: 0.11%;
+	top: 22px;
+	bottom: 10.68%;
+	padding-right: 50px;
+	overflow-wrap: break-word;
+
+}
+
+.home{
+	min-height: 100vh;
+	
+
+}
+.work{
+	position: absolute;
+	bottom: 350px;
+	left: 180px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	overflow-y: hidden;
+	line-height: 95px;
+/* or 136% */
+
+	font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+	color: #18191F;
+
+
+/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 16px 0px;
+}
+.sen{
+	position: absolute;
+	bottom: 280px;
+	left: 180px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+/* or 178% */
+
+	font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+	color: #18191F;
+
+
+/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 16px 0px;
+
+
+}
+.bulb{
+	position: absolute;
+	width: 950px;
+	height: 350px;
+	left: 300px;
+	top: 850px;
+	overflow-x: hidden;
+	border-radius: 8px;
+	display: flex;
+	
+
+/* Inside auto layout */
+
+	overflow-y: hidden;
+	order: 1;
+	flex-grow: 0;
+	margin: 48px 0px;
+	background-repeat: no-repeat;
+	
+}
+.bulb:hover{
+	color: #d9e8ef;
+	background: #d9eaef;
+	box-shadow: 0 0 100px #d9eaef;
+}
+
+.midt{
+	/* Section Title */
+
+
+	position: absolute;
+	width: 800px;
+	height: 108px;
+	left: 165px;
+	top: 750px;
+	bottom: 100px;
+
+/* Heading / H3 */
+
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	display: flex;
+	overflow-y: hidden;
+/* or 135% */
+
+	font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+	color: #18191F;
+
+
+/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 30px;
+}
+
+.midt2{
+	position: absolute;
+	width: 800px;
+	height: 108px;
+	left: 800px;
+	top: 740px;
+	bottom: 50px;
+	overflow-y: hidden;
+	display: flex;
+	overflow: hidden;
+	scroll-behavior: inherit;
+
+/* Lead / Lead 1 */
+	
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+/* or 178% */
+
+	font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+	color: #18191F;
+
+
+/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 30px;
+	animation: 
+     typing 3.5s steps(40, end),
+     blink-caret .75s step-end infinite;
+}
+
+.midt3{
+	position: absolute;
+	width: 766px;
+	height: 160px;
+	left: 509px;
+	top: 1400px;
+
+/* Lead / Lead 1 */
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	left: 509px;
+/* or 178% */
+
+	font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+	color: #18191F;
+}
+
+.comma{
+	position: absolute;
+	top: 1350px;
+	left: 420px;
+	
+}
+
+.jenny{
+	position: absolute;
+	top: 1450px;
+	left: 40px;
+	opacity: 2;
+}
+
+.jennyt{
+	position: absolute;
+	top: 1450px;
+	left: 180px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.dis{
+	position: absolute;
+	top: 450px;
+	left: 140px;
+}
+
+.nlogo{
+	position: absolute;
+	top: 1630px;
+	left: 100px;
+}
+
+.copyright{
+	position: absolute;
+	top: 1638px;
+	left: 600px;
+	color: white;
+	font-size: 16px;
+	opacity: 0.67;
+}
+
+nav ul{
+	z-index: 1;
+	display: flex;
+	margin-left: 60rem;
+	align-items: center;
+}
+nav ul li{
+	padding: 1.2rem;
+	margin-top: 0.8rem;
+
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 1rem;
+	color: black;
+	font-family: Inter;
+	font-size: 18px;
+}
+
+/* socail media handles*/
+.insta{
+	position: absolute;
+	left: 1050px;
+	top: 1626px;
+	float: right;
+	width: 40px;
+	height: 40px;
+	scroll-behavior: inherit;
+	overflow-y: hidden;
+}
+.insta:hover{
+	-webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	-moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	transition: .8s ease;
+}
+.brow{
+	position: absolute;
+	left: 1100px;
+	top: 1626px;
+	float: right;
+	width: 40px;
+	height: 40px;
+	scroll-behavior: inherit;
+	overflow-y: hidden;
+}
+.brow:hover{
+	-webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	-moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	transition: .8s ease;
+}
+.twit{
+	position: absolute;
+	left: 1150px;
+	top: 1626px;
+	float: right;
+	width: 40px;
+	height: 40px;
+	scroll-behavior: inherit;
+	overflow-y: hidden;
+}
+.twit:hover{
+	-webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	-moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	transition: .8s ease;
+}
+.yt{
+	position: absolute;
+	left: 1200px;
+	top: 1626px;
+	float: right;
+	width: 40px;
+	height: 40px;
+	scroll-behavior: inherit;
+	overflow-y: hidden;
+}
+.yt:hover{
+	-webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	-moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+	transition: .8s ease;
+}
+
+/* Have A Nice Day */
