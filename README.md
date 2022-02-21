@@ -1,4 +1,4 @@
-# front-end-project
+# Front-end-Web-Development-project #
 /** Front-end Web Development Project **/
 
 Name: HARSH ANAND
