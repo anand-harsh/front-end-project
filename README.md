@@ -1,9 +1,6 @@
 # Front-end-Web-Development-project #
 /** Front-end Web Development Project **/
 
-Name: HARSH ANAND
-Regn. No.: 21BCE0143
-
  Hosted Webpage: https://projectharshvit.000webhostapp.com/
 
 # A video of The webpage on Android{Device: Redmi-9} #
